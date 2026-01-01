@@ -3,23 +3,27 @@
 > Note: This guide was developed and tested only on Linux. If you're on Windows or macOS and run into issues, please use a search engine or AI.
 
 ## 1. Install Go
-1. [span_6](start_span)Download: Use wget to get the latest version[span_6](end_span):
+1. Download: Use wget to get the latest version:
    ```bash
    wget [https://go.dev/dl/go1.25.4.linux-amd64.tar.gz](https://go.dev/dl/go1.25.4.linux-amd64.tar.gz)
 
  * Install: Remove old versions and extract the archive:
+ * ```bash
    sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.25.4.linux-amd64.tar.gz
 
  * Set Path: Add Go to your profile and refresh it:
+ * ```bash
    echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
-source ~/.bashrc
+   source ~/.bashrc
 
  * Verify: Check the installation:
+ * ```bash
    go version
 
 2. Usage
  * Open the project folder in your terminal.
  * Run the application:
+ * ```bash
    go run main.go
 
  * Enter two numbers to add.
