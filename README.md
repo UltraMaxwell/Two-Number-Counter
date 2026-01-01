@@ -20,7 +20,7 @@
  * ```bash
    go version
 
-2. Usage
+## 2. Usage
  * Open the project folder in your terminal.
  * Run the application:
  * ```bash
