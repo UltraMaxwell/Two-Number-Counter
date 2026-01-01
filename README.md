@@ -5,7 +5,7 @@
 ## 1. Install Go
 1. Download: Use wget to get the latest version:
    ```bash
-   wget [https://go.dev/dl/go1.25.4.linux-amd64.tar.gz](https://go.dev/dl/go1.25.4.linux-amd64.tar.gz)
+   wget https://go.dev/dl/go1.25.4.linux-amd64.tar.gz
 
  * Install: Remove old versions and extract the archive:
  * ```bash
